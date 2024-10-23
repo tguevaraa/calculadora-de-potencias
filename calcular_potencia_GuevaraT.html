@@ -1,18 +1,18 @@
 <script>
     let base, expo, contador = 1, resultado = 1;
-    base, prompt ('ingrse la base')
-    expo, prompt('ingrese el exponente')
+    base = prompt('ingrse la base')
+    expo = prompt('ingrese el exponente')
 
-    if (expo = 0){
+    if (expo == 0){
         resultado = base * 1
     }
     else{
-        while (contador <= base){
+        while (contador <= expo){
             resultado = base * resultado
             contador ++
         }
     }
 
-    document.write(base,'^',expo,'=', resultado) 
+    document.write(base,'^',expo,' = ', resultado) 
 
 </script>
